@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: OCR A Std, monospace	;
+  letter-spacing: 2px;
+}
+
+.texto1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.texto2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+p.flvg {
+  font-size: 20px;
+  color: #3c497c;
+}
+
+span {
+  background-color: #e8e8e8;
+  display: inline;
+  padding: 5px;
+}
+
+.input-field {
+    position: relative;
+}
+
+form .input-field {
+    margin-bottom: 1.5rem;
+}
+
+.input-field .underline::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.input-field .underline::after {
+    content: '';
+    position: absolute;
+    height: 45px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+
+.input-field input:focus ~ .underline::after {
+    transform: scaleX(1);
+}
+
+.input-field input {
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+
+.input-field input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#container {
+  position: relative;
+  margin: 0 auto;
+  width: 1250px;
+  height: 625px;
+}
+
+#container figcaption {
+  position: absolute;
+  color:#6a6262;
+  top: 178px;
+  left: 35px;
+  line-height: 800px;
+  font-size: 36px;
+}
+
+ .container-fluid {
+  font-family: "Times New Roman", Georgia, Serif;
+ }
+
+.navbar navbar-expand-lg navbar-light bg-light shadow-sm p-3 mb-5 bg-white rounded {
+  font-family: "Times New Roman", Georgia, Serif;
+  padding: 1px;
+}
+
+.titulo1 {
+  padding: 40px;
+}
+
+.tcc {
+  text-align: center;
+}
+
+
+.titulo2 {
+  padding: 60px;
+}
+
+.imgtb2 {
+  margin: 0 auto;
+  width: 400px;
+  height: 500px;
+}
+
+.imgtb {
+  margin: 0 auto;
+  width: 400px;
+  height: 600px;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.button {
+  padding: 100px;
+}
+
+
+p.cors {
+  color:#a9a7a7;
+}
+
+form input[type="submit"] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background: #e8e8e8;
+    cursor: pointer;
+    color: #000000;
+    transition: all 0.3s ease;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+
+form input[type="text"] {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+
+form input[type="number"] {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+
+form input[type="datetime-local"] {
+  color: #000000;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+
+form input[type="submit"]:hover {
+    letter-spacing: 0.2px;
+    background: #000000;
+    color: #fff;
+}
